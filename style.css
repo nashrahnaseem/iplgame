@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://i1.faceprep.in/prograd-junior/superover-bg.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#logo {
+    width: 10vw;
+    margin-top: 5vh;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+section {
+    margin: 10vh auto;
+}
+
+#buttons {
+    width: 50%;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.scoreboard {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.score {
+    padding: 30px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 50px;
+}
+
+.button {
+    width: 100px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+#iplteam1 {
+    background-color:#005FA2;
+}
+
+#iplteam2 {
+    background-color: #1FA83D;
+}
+
+#team1-superover, #team2-superover {
+    margin: 20px;
+}
